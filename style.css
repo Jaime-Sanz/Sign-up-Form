@@ -1,4 +1,21 @@
 * {
     padding: 0px;
     margin: 0px;
+    border: 1px solid red;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+#container {
+    display: flex;
+    height: 100vh;
+}
+
+.panel-left {
+    background-image: url("assets/panel-background.jpg");
+    background-size: 300%;
+    background-position: -140px;
+    width: 40%;
 }
