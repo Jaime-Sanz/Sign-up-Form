@@ -37,7 +37,7 @@ body {
 
 
 #logo-holder {
-    background-color: rgba(0, 0, 0, 0.384)
+    background-color: rgba(0, 0, 0, 0.384);
 }
 
 #logo-holder img {
@@ -51,4 +51,9 @@ body {
     text-align: center;
     color: rgba(201,145,255,255);
     font-size: 2rem;
+}
+
+.panel-right {
+    width: 60%;
+    height: auto;
 }
