@@ -6,16 +6,49 @@
 
 body {
     overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 #container {
     display: flex;
-    height: 100vh;
+    height: 105vh;
 }
 
 .panel-left {
+    display: flex;
     background-image: url("assets/panel-background.jpg");
-    background-size: 300%;
-    background-position: -140px;
+    background-color: #464646;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
     width: 40%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35%;
+}
+
+#credit {
+    flex-direction: row;
+    align-self: center;
+    margin-top: 25%;
+    font-size: .8rem;
+}
+
+
+#logo-holder {
+    background-color: rgba(0, 0, 0, 0.384)
+}
+
+#logo-holder img {
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+#logo-holder h1 {
+    text-align: center;
+    color: rgba(201,145,255,255);
+    font-size: 2rem;
 }
