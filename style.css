@@ -1,7 +1,6 @@
 * {
     padding: 0px;
     margin: 0px;
-    border: 1px solid red;
 }
 
 body {
@@ -54,6 +53,53 @@ body {
 }
 
 .panel-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 60%;
     height: auto;
+    gap: 30px;
+    background-color: whitesmoke;
 }
+
+#panel-text {
+    margin-left: 5%;
+    width: 64%;
+    font-size: 1.2rem;
+}
+
+#panel-saying {
+    margin-left: 5%;
+    width: 64%;
+    font-size: 1.2rem;
+}
+
+#form-container {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    flex-direction: column;
+    height: 30%;
+}
+
+#form-header {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#main-form-container {
+    display: flex;
+    margin-left: 3%;
+}
+
+#sub-form-left {
+    width: 20%;
+    margin: 2%;
+}
+
+#sub-form-right {
+    width: 20%;
+    margin: 2%;
+}
+
+
