@@ -90,16 +90,73 @@ body {
 #main-form-container {
     display: flex;
     margin-left: 3%;
+    font-size: .9rem;
+    gap: 45px;
 }
+
 
 #sub-form-left {
     width: 20%;
     margin: 2%;
 }
 
+#sub-form-left input {
+    width: 205px;
+    height: 20px;
+}
+
 #sub-form-right {
-    width: 20%;
+    width: 25%;
     margin: 2%;
 }
 
+#sub-form-right input {
+    width: 205px;
+    height: 20px;
+}
 
+#labelsub {
+    margin-left: 5%;
+}
+
+#labelsub input {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  touch-action: manipulation;
+}
+
+#labelsub input:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  #labelsub input {
+    padding: 0 2.6rem;
+  }
+}
+
+#login-text {
+    margin-left: 5%;
+}
+
+#login-text a {
+    color: rgba(68, 48, 220, 0.576);
+}
+
+input:valid {
+    border-color:rgba(68, 48, 220, 0.576);
+  }
